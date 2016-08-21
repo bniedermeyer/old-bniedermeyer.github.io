@@ -10,6 +10,9 @@
         },
         "profiles": []
     },
+    "imp" : {
+		"orgFormat" : "JRS"
+	},
     "work": [{
         "company": "Expeditors International of Washington, Inc.",
         "website": "http://www.expeditors.com",
