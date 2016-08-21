@@ -103,7 +103,7 @@
         "startDate": "2016-04",
         "summary": "In Progress - Work with members of a local meetup group to build a new website for a local non-profit. Finished product will allow members of the association to advertise counseling services, provide member management, and allow users to search for a local counselor suited for their needs. ",
         "highlights": [
-            "Technologies used include Git, Sass, Hugo, Go, JavaScript, and Gulp.",
+            "Technologies used include Git, Sass, Hugo, JavaScript, and Gulp.",
             "Planned and implemented move from CSS to Sass for styling to enable other developers working on the project to easily make design changes while avoiding Git conflicts.",
             "Involved in discussion and architecture planning, specifically in Hugo and Gulp workflows.",
             "Learning Go programming language, Hugo, and Gulp during course of project through self teaching and collaboration with group members."
