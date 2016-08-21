@@ -105,8 +105,7 @@
         "highlights": [
             "Technologies used include Git, Sass, Hugo, JavaScript, and Gulp.",
             "Planned and implemented move from CSS to Sass for styling to enable other developers working on the project to easily make design changes while avoiding Git conflicts.",
-            "Involved in discussion and architecture planning, specifically in Hugo and Gulp workflows.",
-            "Learning Go programming language, Hugo, and Gulp during course of project through self teaching and collaboration with group members."
+            "Involved in discussion and architecture planning, specifically in Hugo and Gulp workflows."
         ]
     }],
     "awards": [{
