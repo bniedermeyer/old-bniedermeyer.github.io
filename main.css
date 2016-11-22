@@ -36,6 +36,10 @@
         content: "\f111";
     }
 
+    .icon-bars:before {
+    content: "\f0c9";
+    }
+    
     .icon-code:before {
         content: "\f121";
     }
