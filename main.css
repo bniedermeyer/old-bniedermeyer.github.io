@@ -39,7 +39,7 @@
     .icon-bars:before {
     content: "\f0c9";
     }
-    
+
     .icon-code:before {
         content: "\f121";
     }
@@ -78,6 +78,10 @@
 
     .icon-dots-three-horizontal:before {
         content: "\e60b";
+    }
+
+    .icon-graduation-cap:before {
+        content: "\f19d";
     }
 
     .icon-trophy:before {
