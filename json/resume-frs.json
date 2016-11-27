@@ -1,0 +1,219 @@
+{
+  "name": "Brenden Niedermeyer",
+  "info": {},
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "location": {
+    "city": "Seattle",
+    "region": "Washington"
+  },
+  "employment": {
+    "history": [
+      {
+        "position": "Java Certificate Teaching Assistant",
+        "employer": "University of Washington - Professional and Continuing Education",
+        "summary": "Assisted professor for introduction to Java Programming course by grading approximately 15 homework assignments a week during the 10 week course. ",
+        "start": "2015-10",
+        "end": "2015-12",
+        "url": "http://www.pce.uw.edu",
+        "keywords": [],
+        "highlights": [
+          "Collaborated with professor to ensure that all students were being held to same expectation for homework quality",
+          "Answered clarifying questions submitted by students along with homework.",
+          "Provided feedback for how students could improve code quality. ",
+          "Troubleshooted root cause of issues when student homework assignments didn't function as expected and provided this feedback to the students so they could learn from their mistakes. "
+        ]
+      },
+      {
+        "position": "Developer III",
+        "employer": "Expeditors International of Washington, Inc.",
+        "summary": "Collaborate with systems analyst to develop, test, and deploy EDI translations to ensure successful transmission of messages within the company, between clients, and between government entities. Perform system research as needed. Serve on after-hours on-call rotation. Mentor developers new to the company. Use innovation time to enhance existing Java applications as needed.",
+        "current": true,
+        "start": "2012-08",
+        "url": "http://www.expeditors.com",
+        "keywords": [],
+        "highlights": [
+          "Traveled to Chennai, India for three months to assist in opening of new regional development center by training and mentoring three developers in webMethods EDI development. ",
+          "Led team tasked with daytime maintenance and troubleshooting of issues with the EDI systems.",
+          "Coordinated development projects for the Customs business queue. ",
+          "Coordinated initial training of EDI development team, initial roll out, and documentation of the EDIGen Java IDE. Assisted development and rollout of version 2.0.",
+          "Helped to redesign technical portion of interview for new developers. "
+        ]
+      },
+      {
+        "position": "Executive President",
+        "employer": "Residence Hall Association at Washington State University",
+        "summary": "Served as chief representative of the Association to the University, an organization with ~ $80,000/yearly budget. Ran two weekly meetings. Knowledgeable of all goings on within organization and the rest of campus. Sit on various committees and task force boards with different campus organizations.",
+        "start": "2009-05",
+        "end": "2011-05",
+        "url": "http://www.studentinvolvement.orgsync.com/org/wsurha/home",
+        "keywords": [],
+        "highlights": [
+          "Also served as Director of Technology and Marketing 2012, RHA Constitutional Review Chair 2009, and Waller Hall VP 2008-2009."
+        ]
+      },
+      {
+        "position": "SPF State Incentive Grant Database Technician",
+        "employer": "Franklin Pierce School District",
+        "summary": "Prepared Community Survey for electronic distribution, input both Curriculum and Community Surveys into Access database, communicated with project evaluator as needed. Prepared Community Surveys for bulk mailing.",
+        "start": "2008-07",
+        "end": "2008-08",
+        "url": "http://www.fpschools.org",
+        "keywords": [],
+        "highlights": [
+          "Contracted Position"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Timerize",
+      "role": "creator",
+      "url": "http://www.brenden.fyi/timerize",
+      "start": "2016-10",
+      "repo": "https://github.com/bniedermeyer/timerize",
+      "descreption": "A tool to track how much time you spend on the different things you work on throughout the day.",
+      "keywords": ["Javascript", "React", "Sass", "react-bootstrap", "npm"]
+    }
+  ],
+  "education": {
+    "level": "",
+    "history": [
+      {
+        "institution": "University of Washington - Professional and Continuing Education",
+        "start": "2014-08",
+        "end": "2015-06",
+        "curriculum": [],
+        "summary": "",
+        "area": "Java Programming",
+        "studyType": "Certificate"
+      },
+      {
+        "institution": "Freie Universität Berlin",
+        "start": "2011-08",
+        "end": "2011-12",
+        "curriculum": [],
+        "summary": "",
+        "area": "FU-BEST Education Abroad Program",
+        "studyType": ""
+      },
+      {
+        "institution": "Washington State University",
+        "start": "2007-08",
+        "end": "2012-08",
+        "curriculum": [
+          "German Minor",
+          "Music Minor"
+        ],
+        "summary": "",
+        "area": "Business Administration - Management Information Systems",
+        "studyType": "Bachelor of Arts"
+      }
+    ]
+  },
+  "service": {
+    "history": [
+      {
+        "type": "volunteer",
+        "position": "Web Developer",
+        "organization": "Full Stack Ballard - Seattle Counselors Association",
+        "start": "2016-04",
+        "summary": "In Progress - Work with members of a local meetup group to build a new website for a local non-profit. Finished product will allow members of the association to advertise counseling services, provide member management, and allow users to search for a local counselor suited for their needs. ",
+        "highlights": [
+          "Technologies used include Git, Sass, Hugo, JavaScript, and Gulp.",
+          "Planned and implemented move from CSS to Sass for styling to enable other developers working on the project to easily make design changes while avoiding Git conflicts.",
+          "Involved in discussion and architecture planning, specifically in Hugo and Gulp workflows."
+        ]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Java",
+        "skills": [
+          "Ecliplse IDE"
+        ]
+      },
+      {
+        "name": "Web Development",
+        "skills": [
+          "HTML",
+          "JavaScript",
+          "JQuery",
+          "CSS/SASS",
+          "Hugo",
+          "Atom IDE",
+          "Node.js"
+        ]
+      },
+      {
+        "name": "Version Control",
+        "skills": [
+          "SVN",
+          "Git"
+        ]
+      },
+      {
+        "name": "EDI Development",
+        "skills": [
+          "webMethods",
+          "EDIGen (Proprietary Language)",
+          "ANSI X12/EDIFACT Messaging Standards"
+        ]
+      }
+    ]
+  },
+  "recognition": [
+    {
+      "title": "Notice of Appreciation – Canadian Border Services Agency Project",
+      "date": "2014-09",
+      "from": "Expeditors International of Washington, Inc. ",
+      "summary": "Awarded for work as lead developer on a project to interface with Canadian Customs new Border Services system. Despite extreme complexity and rapidly changing timelines dictated by both internal customers and the Canadian Government, we became one of the first companies able to exchange messages successfully with the new system. "
+    },
+    {
+      "title": "WSU President’s Award for Distinguished Leadership and Service",
+      "date": "2010-05",
+      "from": "Washington State University",
+      "summary": "The President’s Award for Leadership is an honor bestowed annually to students and others who advance leadership and engagement at WSU. Awarded to less than 1% of the entire WSU student body. "
+    },
+    {
+      "title": "Eagle Scout Award",
+      "date": "2007-06",
+      "from": "Boy Scouts of America - Pacific Harbors Council",
+      "summary": ""
+    }
+  ],
+  "social": [],
+  "interests": [
+    {
+      "name": "Travel",
+      "keywords": []
+    },
+    {
+      "name": "Photography",
+      "keywords": []
+    },
+    {
+      "name": "Music",
+      "keywords": []
+    },
+    {
+      "name": "Wiring/Assembling Computers",
+      "keywords": []
+    },
+    {
+      "name": "Learning New Technologies",
+      "keywords": []
+    }
+  ],
+  "languages": [
+    {
+      "language": "German",
+      "fluency": "Conversational Speaking/Reading/Writing"
+    }
+  ]
+}
