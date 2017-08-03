@@ -14,7 +14,6 @@
   .navbar {
     @include nav-props;
     height: 100vh;
-    float: right;
     text-align: center;
 
     #self-portrait {

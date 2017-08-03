@@ -1,0 +1,19 @@
+@import "../../../variables";
+
+@include section-title();
+
+.award {
+  @include indent();
+
+  .awardName {
+    font-size: $item-header-font-size;
+    font-weight: 500;
+  }
+
+  .awardOrg {
+    font-size: $item-header-font-size;
+    color: #12a5f4;
+    font-style: italic;
+    font-weight: 300;
+  }
+}

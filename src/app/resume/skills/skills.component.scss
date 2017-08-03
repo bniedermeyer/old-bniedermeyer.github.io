@@ -1,0 +1,9 @@
+@import "../../../variables";
+
+@include section-title();
+.skill {
+  @include indent();
+}
+.skill-highlight {
+  @extend .resume-highlight;
+}

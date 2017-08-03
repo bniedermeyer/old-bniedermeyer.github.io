@@ -1,0 +1,7 @@
+<h4><span><i class="fa fa-trophy fa-xl fa-fw"></i></span> Awards</h4>
+<div class="award" *ngFor="let award of awards">
+  <hr>
+  <div><span class="awardName">{{ award.name }}</span> <span class="awardOrg">{{ award.awardingOrg }}</span></div>
+  <div class="awardDate">Awarded {{ award.date | date: 'MMM, yyyy'}}</div>
+  <p>{{ award.description }}</p>
+</div>

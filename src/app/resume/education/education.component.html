@@ -1,0 +1,9 @@
+<h4><span><i class="fa fa-graduation-cap fa-xl fa-fw"></i></span> Education</h4>
+<div class="degree" *ngFor="let degree of education">
+  <hr>
+  <div><span class="degree-title">{{ degree.degree }}, </span><span class="institute">{{degree.name}}</span></div>
+  <div class="dates">{{degree.startDate | date: 'yyyy'}} - {{degree.endDate | date: 'yyyy'}}</div>
+  <ul class="list-inline">
+    <li class="resume-highlight list-inline-item" *ngFor="let minor of degree.minors">{{ minor }}</li>
+  </ul>
+</div>

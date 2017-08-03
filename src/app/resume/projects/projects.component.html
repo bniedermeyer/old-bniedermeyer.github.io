@@ -1,0 +1,15 @@
+<h4><span><i class="fa fa-code-fork fa-xl fa-fw"></i></span> Projects</h4>
+<div class="project" *ngFor="let project of projects">
+  <hr>
+  <div class="project-name" *ngIf="project.url; then linkName else nonLinkName">
+    <ng-template #linkName><a href="{{ project.url }}">{{ project.name }}</a></ng-template>
+    <ng-template #nonLinkName>{{ project.name }}</ng-template>
+  </div>
+  <div class="in-progress" *ngIf="project.inProgress">In Progress</div>
+  <div *ngIf="project.technologiesUsed.length > 0">
+    <div>Technologies used:</div>
+    <ul>
+      <li *ngFor="let tech of technologiesUsed">{{ tech }}</li>
+    </ul>
+  </div>
+</div>

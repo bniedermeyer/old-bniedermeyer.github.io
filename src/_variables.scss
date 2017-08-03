@@ -1,0 +1,21 @@
+$item-header-font-size: 20px;
+@mixin indent() {
+  margin-left: 40px;
+}
+
+@mixin section-title() {
+  h4 {
+    color: #646464;
+    font-weight: 300;
+  }
+}
+
+.resume-highlight {
+  background-color: #00b3ee;
+  border: 1px solid #0080ac;
+  color: white;
+  border-radius: 5px;
+  padding: 0 5px 0 5px;
+  width: 80px;
+  text-align: center;
+}

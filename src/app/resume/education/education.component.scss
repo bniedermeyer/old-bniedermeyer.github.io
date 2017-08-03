@@ -1,0 +1,19 @@
+@import "../../../variables";
+
+@include section-title();
+
+.degree {
+ @include indent();
+
+  .degree-title {
+    font-size: $item-header-font-size;
+    font-weight: 500;
+  }
+
+  .institute {
+    font-size: $item-header-font-size;
+    color: #12a5f4;
+    font-style: italic;
+    font-weight: 300;
+  }
+}

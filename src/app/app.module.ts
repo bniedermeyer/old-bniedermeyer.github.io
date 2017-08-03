@@ -4,17 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
+import { ResumeModule } from './resume/resume.module';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
   ],
-  imports: [
+  imports:      [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ResumeModule
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers:    [],
+  bootstrap:    [AppComponent],
 })
-export class AppModule { }
+export class AppModule {
+}

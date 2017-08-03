@@ -1,0 +1,8 @@
+<h4><span><i class="fa fa-file-code-o fa-xl fa-fw"></i></span> Skills</h4>
+<div class="skill" *ngFor="let skill of skills">
+  <hr class="">
+  <h6>{{ skill.name }}</h6>
+  <ul class="list-inline">
+    <li class="list-inline-item skill-highlight" *ngFor="let highlight of skill.highlights">{{ highlight }}</li>
+  </ul>
+</div>

@@ -1,0 +1,18 @@
+<div id="resume">
+  <div class="container-fluid">
+    <div class="row no-gutters-sm">
+      <div class="col-md-3">
+        <app-contact></app-contact>
+      </div>
+      <div class="col-md-9 content-container">
+        <h3>Background</h3>
+        <hr>
+        <app-work-experience [positions]="positions"></app-work-experience>
+        <app-skills [skills]="skills"></app-skills>
+        <app-education [education]="degrees"></app-education>
+        <app-awards [awards]="awards"></app-awards>
+        <app-projects [projects]="projects"></app-projects>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+<h4><span><i class="fa fa-suitcase fa-xl fa-fw"></i></span> Work Experience</h4>
+<div *ngFor="let position of positions" class="position">
+  <hr class="">
+  <div><span *ngIf="position.current"><i class="fa fa-circle fa-fw "></i></span><span
+    class="title">{{position.title}}, </span><span
+    class="company">{{position.company}}</span></div>
+  <div class="date">{{position.dateStart | date: 'MMM, yyyy'}} - <span
+    *ngIf="position.current; then current else notCurrent"></span></div>
+  <ng-template #current>Current</ng-template>
+  <ng-template #notCurrent>{{position.dateEnd | date: 'MMM, yyyy'}}</ng-template>
+  <p>{{position.description}}</p>
+  <h6>Highlights:</h6>
+  <ul *ngFor="let highlight of position.highlights">
+    <li>{{highlight}}</li>
+  </ul>
+</div>
