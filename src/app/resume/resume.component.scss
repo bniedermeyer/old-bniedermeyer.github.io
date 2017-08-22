@@ -1,24 +1,3 @@
-@import "~bootstrap/scss/mixins/breakpoints";
-@import "~bootstrap/scss/variables";
-
 #resume {
-  background-color: rgba(170, 238, 223, 0.56);
-  height: 100vh;
-}
-.content-container {
-  background-color: white;
-  border: solid 1px #c2c2c2;
-  border-radius: 2px;
-  padding: 20px;
-}
-@include media-breakpoint-down(sm) {
-  .no-gutters-sm {
-    margin-left: 0;
-    margin-right: 0;
-    [class*="col-"] {
-      padding-left: 0;
-      padding-right: 0;
-    }
-
-  }
+  padding: 10px;
 }

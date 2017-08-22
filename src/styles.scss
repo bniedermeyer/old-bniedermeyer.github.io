@@ -1,7 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
-
+//@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
 @import 'variables';
-//@import '../node_modules/bootstrap/scss/bootstrap';
+@import '~@angular/material/theming';
+@import 'theme';
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+// material theme
+@include mat-core();
+@include angular-material-theme($theme);
+
 .hr-offset {
   margin-left: 40px;
+}
+
+html, body, app-root, md-sidenav-container, router-outlet {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+md-sidenav {
+  background-color: mat-color($primary) !important;
+  //md-list-item {
+  //  color: mat-color($accent);
+  //
+  //}
 }

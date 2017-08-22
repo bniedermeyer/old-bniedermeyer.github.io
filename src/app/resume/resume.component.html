@@ -1,18 +1,14 @@
-<div id="resume">
-  <div class="container-fluid">
-    <div class="row no-gutters-sm">
-      <div class="col-md-3">
-        <app-contact></app-contact>
-      </div>
-      <div class="col-md-9 content-container">
-        <h3>Background</h3>
-        <hr>
-        <app-work-experience [positions]="positions"></app-work-experience>
-        <app-skills [skills]="skills"></app-skills>
-        <app-education [education]="degrees"></app-education>
-        <app-awards [awards]="awards"></app-awards>
-        <app-projects [projects]="projects"></app-projects>
-      </div>
-    </div>
-  </div>
+<div id="resume" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="10px">
+  <app-contact fxFlex="30"></app-contact>
+  <md-card fxFlex>
+    <md-card-header>
+      <h1 class="mat-h1">Background</h1>
+    </md-card-header>
+    <hr>
+    <app-work-experience [positions]="positions"></app-work-experience>
+    <app-skills [skills]="skills"></app-skills>
+    <app-education [education]="degrees"></app-education>
+    <app-awards [awards]="awards"></app-awards>
+    <app-projects [projects]="projects"></app-projects>
+  </md-card>
 </div>

@@ -1,13 +1,12 @@
-<div id="contact">
-  <img src="assets/img/profile.jpg" id="self-portrait" alt="" class="mx-auto d-block">
-  <h3 class="text-center">Brenden Niedermeyer</h3>
-  <hr>
-  <div class="">
-    <div class="text-md-left text-center"><i class="fa fa-map-marker fa-lg fa-fw"></i><span class="contact-item">Seattle, WA</span></div>
-    <div class="text-md-left text-center"><i class="fa fa-phone fa-lg fa-fw"></i><span class="contact-item">By Request</span></div>
-    <div class="text-md-left text-center"><i class="fa fa-envelope fa-lg fa-fw"></i><span class="contact-item"><a href="mailto:me@brenden.fyi">me@brenden.fyi</a></span></div>
-    <div class="text-md-left text-center"><i class="fa fa-language fa-lg fa-fw"></i><span class="contact-item">English, German</span></div>
-    <!--<div><span><i class="fa fa-language"></i></span>English, German</div> todo: add resume pdf-->
-  </div>
-  <hr>
-</div>
+<md-card id="contact" fxFlex fxLayout="column" fxLayoutAlign="start center">
+  <img src="assets/img/profile.jpg" id="self-portrait" alt="">
+  <h3>Brenden Niedermeyer</h3>
+  <md-list>
+    <md-divider fxHide fxShow.gt-md></md-divider>
+    <md-list-item><md-icon md-list-icon color="accent">place</md-icon>Seattle, WA</md-list-item>
+    <md-list-item><md-icon md-list-icon color="accent">call</md-icon>By Request</md-list-item>
+    <md-list-item><md-icon md-list-icon color="accent">mail_outline</md-icon><a href="mailto:me@brenden.fyi">me@brenden.fyi</a></md-list-item>
+    <md-list-item><md-icon md-list-icon color="accent">language</md-icon>English, German</md-list-item>
+    <md-divider fxHide fxShow.gt-md></md-divider>
+  </md-list>
+</md-card>

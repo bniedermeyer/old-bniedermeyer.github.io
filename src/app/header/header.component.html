@@ -1,19 +1,18 @@
-<nav class="navbar navbar-light navbar-toggleable-sm bg-faded justify-content-md-center flex-md-column">
-  <button class="navbar-toggler navbar-toggler-right hidden-md-up" type="button" data-toggle="collapse"
-          data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-  <img src="assets/img/profile.jpg" id="self-portrait" alt="">
-  <a class="navbar-brand" href="#"><span id="name"></span></a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="nav navbar-nav flex-md-column">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Thoughts</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Resume</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+<md-toolbar color="primary" fxHide fxShow.lt-sm>
+  <span>Brenden Niedermeyer</span>
+    <md-nav-list>
+      <a md-list-item href="#">Home</a>
+      <a md-list-item href="#">Thoughts</a>
+      <a md-list-item href="#">Resume</a>
+    </md-nav-list>
+</md-toolbar>
+<md-sidenav-container fxShow fxHide.lt-sm>
+  <md-sidenav mode="side" opened="true" align="end">
+    <span>Brenden Niedermeyer</span>
+    <md-nav-list>
+      <a md-list-item href="#">Home</a>
+      <a md-list-item href="#">Thoughts</a>
+      <a md-list-item href="#">Resume</a>
+    </md-nav-list>
+  </md-sidenav>
+</md-sidenav-container>

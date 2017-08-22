@@ -1,2 +1,21 @@
-<app-header class="float-md-right"></app-header>
-<router-outlet></router-outlet>
+<md-sidenav-container>
+  <md-toolbar fxShow.lt-md fxHide color="primary" >
+    <span fxFlex>Brenden Niedermeyer</span>
+    <button md-icon-button  fxHide fxShow.xs (click)="sidenav.open()">
+      <md-icon>menu</md-icon>
+    </button>
+    <div fxFlex fxLayout="row" fxLayoutGap="10px" fxLayoutAlign="end" fxHide fxShow.gt-xs>
+      <md-list-item><a href="#">Home</a></md-list-item>
+      <md-list-item><a href="#">Thoughts</a></md-list-item>
+      <md-list-item><a href="#">Resume</a></md-list-item>
+    </div>
+  </md-toolbar>
+  <md-sidenav #sidenav [opened]="opened" [mode]="navbarMode" align="end" fxFlex fxLayout="column"
+              fxLayoutAlign="center center">
+    <md-list-item class="mat-title">Brenden Niedermeyer</md-list-item>
+    <md-list-item><a href="#" class="mat-title">Home</a></md-list-item>
+    <md-list-item><a href="#" class="mat-title">Thoughts</a></md-list-item>
+    <md-list-item><a href="#" class="mat-title">Resume</a></md-list-item>
+  </md-sidenav>
+  <router-outlet></router-outlet>
+</md-sidenav-container>
