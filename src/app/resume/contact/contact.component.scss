@@ -4,7 +4,7 @@ img {
   border-radius: 50%;
 }
 md-card {
-  height: 400px;
+  height: 430px;
   text-align: center;
   padding: 0;
   padding-top: 10px;
@@ -14,5 +14,8 @@ md-card {
   a {
     text-decoration: none;
     color: inherit;
+  }
+  .pointer {
+    cursor: pointer;
   }
 }

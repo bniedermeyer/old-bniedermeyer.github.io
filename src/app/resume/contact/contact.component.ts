@@ -12,4 +12,8 @@ export class ContactComponent implements OnInit {
   ngOnInit() {
   }
 
+  handleResumeClick() {
+    window.open('assets/documents/BrendenNiedermeyer_Resume.pdf');
+  }
+
 }

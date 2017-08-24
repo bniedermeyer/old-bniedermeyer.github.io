@@ -1,7 +1,7 @@
 export interface Project {
   name: string;
   inProgress: boolean;
-  url: string;
+  url?: string;
   description: string;
-  technologiesUsed: string[];
+  technologiesUsed?: string[];
 }

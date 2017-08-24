@@ -1,6 +1,7 @@
 @import "../../../variables";
 
 @include section-title();
+
 .skill {
   @include indent();
 }

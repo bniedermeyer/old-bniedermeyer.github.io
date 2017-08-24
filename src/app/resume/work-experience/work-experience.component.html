@@ -1,4 +1,7 @@
-<h4><span><i class="fa fa-suitcase fa-xl fa-fw"></i></span> Work Experience</h4>
+<div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px">
+  <md-icon color="accent">work</md-icon>
+  <h3>Work Experience</h3>
+</div>
 <div *ngFor="let position of positions" class="position">
   <hr class="">
   <div><span *ngIf="position.current"><i class="fa fa-circle fa-fw "></i></span><span
