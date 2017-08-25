@@ -5,6 +5,11 @@
 .skill {
   @include indent();
 }
+
+.skill-name {
+    font-size: $item-header-font-size;
+    font-weight: 500;
+}
 .skill-highlight {
   @extend .resume-highlight;
 }
