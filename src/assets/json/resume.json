@@ -6,7 +6,7 @@
       "company": "Expeditors International of Washington, Inc.",
       "dateStart":"2017-03-20T00:00:00Z",
       "dateEnd":"",
-      "descriptions": "Create a functional implementation of the user interface based on static mockups provided by User Experience Design. Ensure UI components and technologies are feasible and ensure consistency across browsers. Work with application developers to identify integration points between view layer and back end. Provide oversight to other developers contributing to the user interface to ensure the interface is developed consistently and utilizes best practices. Create templates, examples, and components for application developers to use as needed. Work together with User Experience Design and Business Analysis to present ideas to business owners.",
+      "description": "Create a functional implementation of the user interface based on static mockups provided by User Experience Design. Ensure UI components and technologies are feasible and ensure consistency across browsers. Work with application developers to identify integration points between view layer and back end. Provide oversight to other developers contributing to the user interface to ensure the interface is developed consistently and utilizes best practices. Create templates, examples, and components for application developers to use as needed. Work together with User Experience Design and Business Analysis to present ideas to business owners.",
       "highlights": [
         "Implemented a Mattermost Chatbot with Typescript and Node.js to provide teammates with an easy way to monitor the system, and alert them to codebase issues.",
         "Built and maintain a webapp with Angular and Redux to provide business with a way to interact with the po repository system."
@@ -17,8 +17,8 @@
       "title": "Developer III",
       "company": "Expeditors International of Washington, Inc.",
       "dateStart":"2012-08-12T00:00:00Z",
-      "dateEnd":"2016-03-20T00:00:00Z",
-      "descriptions": "Collaborate with systems analyst to develop, test, and deploy EDI translations to ensure successful transmission of messages within the company, between clients, and between government entities. Perform system research as needed. Serve on after-hours on-call rotation. Mentor developers new to the company. Use innovation time to enhance existing Java applications as needed.",
+      "dateEnd":"2017-03-20T00:00:00Z",
+      "description": "Collaborate with systems analyst to develop, test, and deploy EDI translations to ensure successful transmission of messages within the company, between clients, and between government entities. Perform system research as needed. Serve on after-hours on-call rotation. Mentor developers new to the company. Use innovation time to enhance existing Java applications as needed.",
       "highlights": [
         "Traveled to Chennai, India for three months to assist in opening of new regional development center by training and mentoring three developers in webMethods EDI development.",
         "Led team tasked with daytime maintenance and troubleshooting of issues with the EDI systems.",
@@ -33,7 +33,7 @@
       "company": "University of Washington - Professional and Continuing Education",
       "dateStart":"2015-10-01T00:00:00Z",
       "dateEnd":"2015-12-01T00:00:00Z",
-      "descriptions": "Assisted professor for introduction to Java Programming course by grading approximately 15 homework assignments a week during the 10 week course.",
+      "description": "Assisted professor for introduction to Java Programming course by grading approximately 15 homework assignments a week during the 10 week course.",
       "highlights": [
         "Collaborated with professor to ensure that all students were being held to same expectation for homework quality.",
         "Answered clarifying questions submitted by students along with homework.",
@@ -47,7 +47,7 @@
       "company": "Residence Hall Association at Washington State University",
       "dateStart":"2009-05-01T00:00:00Z",
       "dateEnd":"2011-05-01T00:00:00Z",
-      "descriptions": "Served as chief representative of the Association to the University, an organization with ~ $80,000/yearly budget. Ran two weekly meetings. Knowledgeable of all goings on within organization and the rest of campus. Sit on various committees and task force boards with different campus organizations.",
+      "description": "Served as chief representative of the Association to the University, an organization with ~ $80,000/yearly budget. Ran two weekly meetings. Knowledgeable of all goings on within organization and the rest of campus. Sit on various committees and task force boards with different campus organizations.",
       "highlights": [
         "Also served as Director of Technology and Marketing 2012, RHA Constitutional Review Chair 2009, and Waller Hall VP 2008-2009."
       ]
@@ -58,7 +58,7 @@
       "company": "Franklin Pierce School District",
       "dateStart":"2008-07-01T00:00:00Z",
       "dateEnd":"2008-08-31T00:00:00Z",
-      "descriptions": "Prepared Community Survey for electronic distribution, input both Curriculum and Community Surveys into Access database, communicated with project evaluator as needed. Prepared Community Surveys for bulk mailing.",
+      "description": "Prepared Community Survey for electronic distribution, input both Curriculum and Community Surveys into Access database, communicated with project evaluator as needed. Prepared Community Surveys for bulk mailing.",
       "highlights": [
         "Contracted Position"
       ]
@@ -109,19 +109,13 @@
       "name": "University of Washington - Professional and Continuing Education",
       "degree": "Certificate of Java Programming",
       "startDate": "2014-08-01T00:00:00Z",
-      "endDate": "2015-06-01T00:00:00Z",
-      "minors": [
-        ""
-      ]
+      "endDate": "2015-06-01T00:00:00Z"
     },
     {
       "name": "Freie Universität Berlin",
       "degree": "FU-BEST Education Abroad Program",
       "startDate": "2011-08-01T00:00:00Z",
-      "endDate": "2011-12-01T00:00:00Z",
-      "minors": [
-        ""
-      ]
+      "endDate": "2011-12-01T00:00:00Z"
     }
   ],
   "awards": [
@@ -183,19 +177,13 @@
       "name": "Wikipedia Viewer",
       "inProgress": false,
       "url": "https://codepen.io/bniedermeyer/pen/GZKOpJ",
-      "description": "A simple Wikipedia viewer that allows the user to view a random article or search for a specific article by using Wikipedia's search API.",
-      "technologiesUsed": [
-        ""
-      ]
+      "description": "A simple Wikipedia viewer that allows the user to view a random article or search for a specific article by using Wikipedia's search API."
     },
     {
       "name": "Calculator",
       "inProgress": false,
       "url": "https://codepen.io/bniedermeyer/pen/RrwmzL",
-      "description": "A simple calculator built with JQuery.",
-      "technologiesUsed": [
-        ""
-      ]
+      "description": "A simple calculator built with JQuery."
     }
   ]
 }

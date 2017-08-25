@@ -1,4 +1,7 @@
-<h3><span><i class="fa fa-trophy fa-xl fa-fw"></i></span> Awards</h3>
+<div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px">
+  <md-icon color="accent">stars</md-icon>
+  <h3>Awards</h3>
+</div>
 <div class="award" *ngFor="let award of awards">
   <hr>
   <div><span class="awardName">{{ award.name }}</span> <span class="awardOrg">{{ award.awardingOrg }}</span></div>

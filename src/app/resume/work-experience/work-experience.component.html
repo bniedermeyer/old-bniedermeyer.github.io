@@ -5,8 +5,9 @@
 <div *ngFor="let position of positions" class="position">
   <hr class="">
   <div><span *ngIf="position.current"><i class="fa fa-circle fa-fw "></i></span><span
-    class="title">{{position.title}}, </span><span
-    class="company">{{position.company}}</span></div>
+    class="title">{{position.title}}</span>
+    <div class="company">{{position.company}}</div>
+  </div>
   <div class="date">{{position.dateStart | date: 'MMM, yyyy'}} - <span
     *ngIf="position.current; then current else notCurrent"></span></div>
   <ng-template #current>Current</ng-template>

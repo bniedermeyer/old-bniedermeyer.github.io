@@ -10,6 +10,7 @@ import { EducationComponent } from './education/education.component';
 import { AwardsComponent } from './awards/awards.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { AppMaterialComponentsModule} from '../app-material-components.module';
+import { ResumeService } from './resume.service';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { AppMaterialComponentsModule} from '../app-material-components.module';
     AppMaterialComponentsModule
   ],
   declarations: [ResumeComponent, ContactComponent, WorkExperienceComponent, SkillsComponent, EducationComponent, AwardsComponent, ProjectsComponent],
+  providers: [ResumeService]
 })
 export class ResumeModule {
 }

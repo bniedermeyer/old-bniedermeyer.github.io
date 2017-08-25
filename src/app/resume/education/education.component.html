@@ -4,7 +4,7 @@
 </div>
 <div class="degree" *ngFor="let degree of education">
   <hr>
-  <div><span class="degree-title">{{ degree.degree }}, </span><span class="institute">{{degree.name}}</span></div>
+  <div><span class="degree-title">{{ degree.degree }}, </span><div class="institute">{{degree.name}}</div></div>
   <div class="dates">{{degree.startDate | date: 'yyyy'}} - {{degree.endDate | date: 'yyyy'}}</div>
   <div fxLayout="row" fxLayoutGap="5px">
     <div class="resume-highlight" *ngFor="let minor of degree.minors">{{ minor }}</div>

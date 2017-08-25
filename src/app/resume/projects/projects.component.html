@@ -1,15 +1,20 @@
-<h3><span><i class="fa fa-code-fork fa-xl fa-fw"></i></span> Projects</h3>
+<div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="5px">
+  <md-icon color="accent">build</md-icon>
+  <h3>Projects</h3>
+</div>
 <div class="project" *ngFor="let project of projects">
   <hr>
-  <div class="project-name" *ngIf="project.url; then linkName else nonLinkName">
-    <ng-template #linkName><a href="{{ project.url }}">{{ project.name }}</a></ng-template>
-    <ng-template #nonLinkName>{{ project.name }}</ng-template>
-  </div>
   <div class="in-progress" *ngIf="project.inProgress">In Progress</div>
-  <div *ngIf="project.technologiesUsed.length > 0">
-    <div>Technologies used:</div>
+  <div class="project-name" *ngIf="project.url; else nonLinkName">
+    <a href="{{ project.url }}">{{ project.name }}</a>
+  </div>
+  <ng-template #nonLinkName>
+    <div class="project-name">{{ project.name }}</div></ng-template>
+  <div>{{ project.description }}</div>
+  <div *ngIf="project.technologiesUsed">
+    <div><h6>Technologies used:</h6></div>
     <ul>
-      <li *ngFor="let tech of technologiesUsed">{{ tech }}</li>
+      <li *ngFor="let tech of project.technologiesUsed">{{ tech }}</li>
     </ul>
   </div>
 </div>
