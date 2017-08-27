@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import {MediaChange, ObservableMedia} from '@angular/flex-layout';
 import {Subscription} from 'rxjs/Subscription';
-import 'hammerjs';
 
 @Component({
   selector:    'app-root',
