@@ -16,7 +16,6 @@ import { OverlayComponent } from './shared/overlay/overlay.component'
     AppComponent,
     HeaderComponent,
     OverlayComponent
-
   ],
   imports:      [
     BrowserModule,

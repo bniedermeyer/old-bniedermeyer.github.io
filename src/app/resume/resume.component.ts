@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 import { Position } from '../shared/position';
 import { Skill } from '../shared/skill';
@@ -13,15 +13,15 @@ import { ResumeService } from './resume.service';
   styleUrls:   ['./resume.component.scss'],
 })
 export class ResumeComponent implements OnInit {
+  // data for the different components of the resume
   positions: Position[];
-
   skills: Skill[];
-
   degrees: Education[];
-
   awards: Award[];
-
   projects: Project[];
+  // event to trigger the opening of the menu bar
+  @Output() openSideNav = new EventEmitter<any>();
+
 
   constructor(private resumeService: ResumeService) {
     this.positions = resumeService.getWorkExperience();
@@ -32,6 +32,10 @@ export class ResumeComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  handleOpenSideNav() {
+    this.openSideNav.emit(null);
   }
 
 }

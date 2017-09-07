@@ -1,6 +1,6 @@
 <md-sidenav-container>
   <!--Top navbar for mobile-->
-  <md-toolbar fxShow.lt-md fxHide color="primary">
+  <md-toolbar fxHide color="primary">
     <span fxFlex>Brenden Niedermeyer</span>
     <button md-icon-button fxHide fxShow.xs (click)="sidenav.open()">
       <md-icon>menu</md-icon>
@@ -17,7 +17,7 @@
     </div>
   </md-toolbar>
   <!--Sidebar for non-mobile layouts-->
-  <md-sidenav #sidenav [opened]="opened" [mode]="navbarMode" align="end" fxFlex fxLayout="column"
+  <md-sidenav #sidenav (openSideNav)="sidenav.open()" [opened]="opened" [mode]="navbarMode" align="end" fxFlex fxLayout="column"
               fxLayoutAlign="center center">
     <md-list-item class="mat-title">Brenden Niedermeyer</md-list-item>
     <md-list-item><a href="#" class="mat-title">Home</a></md-list-item>
