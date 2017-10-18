@@ -1,7 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MATERIAL_COMPATIBILITY_MODE } from '@angular/material';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,7 +16,7 @@ import { OverlayComponent } from './shared/overlay/overlay.component'
   declarations: [
     AppComponent,
     HeaderComponent,
-    OverlayComponent
+    OverlayComponent,
 
   ],
   imports:      [
@@ -24,9 +25,11 @@ import { OverlayComponent } from './shared/overlay/overlay.component'
     FlexLayoutModule,
     BrowserAnimationsModule,
     AppMaterialComponentsModule,
-    ResumeModule
+    ResumeModule,
   ],
-  providers:    [],
+  providers:    [
+    {provide: MATERIAL_COMPATIBILITY_MODE, useValue: true}
+  ],
   bootstrap:    [AppComponent],
 })
 export class AppModule {

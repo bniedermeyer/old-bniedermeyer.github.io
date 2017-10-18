@@ -1,14 +1,14 @@
 <div id="resume" fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="10px">
   <app-contact fxFlex="20"></app-contact>
-  <md-card fxFlex>
-    <md-card-header>
+  <mat-card fxFlex>
+    <mat-card-header>
       <h1 class="mat-h1">Background</h1>
-    </md-card-header>
+    </mat-card-header>
     <hr>
     <app-work-experience [positions]="positions"></app-work-experience>
     <app-skills [skills]="skills"></app-skills>
     <app-education [education]="degrees"></app-education>
     <app-awards [awards]="awards"></app-awards>
     <app-projects [projects]="projects"></app-projects>
-  </md-card>
+  </mat-card>
 </div>

@@ -2,11 +2,11 @@
 @import "../theme";
 @import "../variables";
 
-md-sidenav-container {
+mat-sidenav-container {
   margin:0;
   padding: 0;
 
-  md-sidenav {
+  mat-sidenav {
     padding: 10px;
   }
   .box-shadow {
@@ -15,7 +15,7 @@ md-sidenav-container {
 
   }
 }
-md-list-item {
+mat-list-item {
   text-align: center;
   color: $header-color;
   a {
