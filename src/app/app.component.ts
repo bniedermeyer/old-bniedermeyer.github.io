@@ -11,7 +11,7 @@ export class AppComponent {
   mediaWatcher: Subscription;
   activeMediaQuery = '';
   navbarMode = 'side';
-  opened = true;
+  opened = false;
 
   constructor(private media: ObservableMedia) {
     this.mediaWatcher = media.subscribe((change: MediaChange) => {
@@ -31,6 +31,6 @@ export class AppComponent {
 
   toggleNavbarSideMode() {
     this.navbarMode = 'side';
-    this.opened = true;
+    this.opened = false;
   }
 }
